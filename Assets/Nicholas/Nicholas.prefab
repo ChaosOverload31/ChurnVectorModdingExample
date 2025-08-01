@@ -1,0 +1,249 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3870432367380310306
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 561010535666391940}
+  - component: {fileID: 68256059233264323}
+  - component: {fileID: 3738177042410423520}
+  m_Layer: 0
+  m_Name: Nicholas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &561010535666391940
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3870432367380310306}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1969633964500866609}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &68256059233264323
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3870432367380310306}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abc36ec581651e042bcd6fbde9a10157, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  renderers:
+  - {fileID: 4437636560167237569}
+--- !u!114 &3738177042410423520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3870432367380310306}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e01a97cba5dcd2f41ae578e88f01c79f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  penetrables: []
+  volumeSolid: 8
+  volumeChurned: 1
+  dialogueTheme: {fileID: 0}
+  voreContainer:
+    rid: 4482958527671042051
+  headSprite: {fileID: 21300000, guid: f0df3f40480733a4ca693317ab92c693, type: 3}
+  speed: 2.8
+  animationGroup: []
+  voreMachine:
+    rid: 4482958527671042050
+  noseOffset: {x: 0, y: 0, z: 0}
+  taserOutput: {fileID: 0}
+  references:
+    version: 2
+    RefIds:
+    - rid: 4482958527671042050
+      type: {class: GenericVoreMachine, ns: , asm: com.gatordragongames.churn-vector.sdk}
+      data:
+        voreSplinePath: []
+        voreHoleNormalizedDistance: 0.1
+    - rid: 4482958527671042051
+      type: {class: GenericVoreContainer, ns: , asm: com.gatordragongames.churn-vector.sdk}
+      data:
+        inflater:
+          bounce: {fileID: 0}
+          listeners: []
+--- !u!1001 &2080437468127244762
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 561010535666391940}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 5808fd36bea6bcf4ea18ff1b47b0b9e4,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5808fd36bea6bcf4ea18ff1b47b0b9e4,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5808fd36bea6bcf4ea18ff1b47b0b9e4,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5808fd36bea6bcf4ea18ff1b47b0b9e4,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5808fd36bea6bcf4ea18ff1b47b0b9e4,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5808fd36bea6bcf4ea18ff1b47b0b9e4,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5808fd36bea6bcf4ea18ff1b47b0b9e4,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5808fd36bea6bcf4ea18ff1b47b0b9e4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5808fd36bea6bcf4ea18ff1b47b0b9e4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5808fd36bea6bcf4ea18ff1b47b0b9e4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5808fd36bea6bcf4ea18ff1b47b0b9e4,
+        type: 3}
+      propertyPath: m_Name
+      value: NicholasAchausTruscott
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 5808fd36bea6bcf4ea18ff1b47b0b9e4,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 092e608ece022b04eb2a5ae9468fe673, type: 2}
+    - target: {fileID: 5866666021909216657, guid: 5808fd36bea6bcf4ea18ff1b47b0b9e4,
+        type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5808fd36bea6bcf4ea18ff1b47b0b9e4,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6413488835100621093}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5808fd36bea6bcf4ea18ff1b47b0b9e4,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4234492868315173773}
+  m_SourcePrefab: {fileID: 100100000, guid: 5808fd36bea6bcf4ea18ff1b47b0b9e4, type: 3}
+--- !u!1 &1161465857468927115 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 5808fd36bea6bcf4ea18ff1b47b0b9e4,
+    type: 3}
+  m_PrefabInstance: {fileID: 2080437468127244762}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6413488835100621093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1161465857468927115}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9fc797340d56704385bd4d1f4dafabd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boner:
+    bounce: {fileID: 0}
+    listeners: []
+  cockVoreSizeChange:
+    bounce: {fileID: 0}
+    listeners: []
+  ballsCenter: {fileID: 0}
+  ballsRoot: {fileID: 0}
+  ballStorageScale: 1
+  xrayBodyRenderers:
+  - {fileID: 4437636560167237569}
+  clothRipPack: {fileID: 0}
+  clothRipAsset: {fileID: 0}
+  clothTexture: {fileID: 0}
+  clothColor: {r: 0, g: 0, b: 0, a: 0}
+  nakedBodyRenderers:
+  - {fileID: 4437636560167237569}
+  clothedBodyRenderers: []
+  boobOomphEffect: []
+  bounceCurve: {fileID: 0}
+  cumInflation:
+    bounce: {fileID: 0}
+    listeners: []
+  dickTipOpenBlendshapes: []
+  references:
+    version: 2
+    RefIds: []
+--- !u!114 &4234492868315173773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1161465857468927115}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d76f24409a39604ca3986f91ce6d28a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jiggleUpdateMode: 0
+  <blend>k__BackingField: 1
+  jiggleRigs: []
+  wind: {x: 0, y: 0, z: 0}
+  debugDraw: 0
+--- !u!4 &1969633964500866609 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5808fd36bea6bcf4ea18ff1b47b0b9e4,
+    type: 3}
+  m_PrefabInstance: {fileID: 2080437468127244762}
+  m_PrefabAsset: {fileID: 0}
+--- !u!137 &4437636560167237569 stripped
+SkinnedMeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -6824479375838231013, guid: 5808fd36bea6bcf4ea18ff1b47b0b9e4,
+    type: 3}
+  m_PrefabInstance: {fileID: 2080437468127244762}
+  m_PrefabAsset: {fileID: 0}
